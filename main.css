@@ -1,1 +1,25 @@
+head {
+  height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
 
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(121,149,117);
+}
+
+.studentDescription {
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
