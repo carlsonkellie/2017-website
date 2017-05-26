@@ -21,10 +21,13 @@ body {
 	background-color: #f7f7f7;
 	color: #666666;
 	font-family: 'Josefin Sans';
-	font-weight: 200;
 	padding: 20px;
 	letter-spacing: 1.3px;
+}
+
+h1 {
 	font-size: 12px;
+	font-weight: 200;
 }
 
 .studentDescription {
