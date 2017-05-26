@@ -18,9 +18,10 @@ body {
 	left: 0;
 	z-index: 999; 
 	top: 0;
-	background-color: #a0a0a0;
-	color: #ffffff;
+	background-color: #f7f7f7;
+	color: #666666;
 	font-family: 'Josefin Sans';
+	font-style: lighter;
 	padding: 20px;
 	letter-spacing: 1.3px;
 }
