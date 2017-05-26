@@ -10,7 +10,6 @@ body {
 	margin: 0;
 	text-align: center;
 	width: 100%;
-	padding-top: 75px;
 }
 
 .navbar-fixed-top { 
@@ -31,4 +30,5 @@ h1 {
 	margin: 30px;
   	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	color: rgb(121,149,117);
+	padding-top: 75px;
 }
