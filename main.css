@@ -21,7 +21,8 @@ body {
 	background-color: #a0a0a0;
 	color: #ffffff;
 	font-family: 'Josefin Sans';
-	letter-spacing: 2px;
+	padding: 20px;
+	letter-spacing: 1px;
 }
 
 h1 {
