@@ -18,7 +18,8 @@ body {
 	left: 0;
 	z-index: 999; 
 	top: 0;
-	background-color: magenta;
+	background-color: #bfbfbf;
+	color: #ffffff;
 }
 
 h1 {
