@@ -8,6 +8,9 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
   	<script type="text/javascript" src="button.js">
 	</script>
+	<script src="scroll.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="smoothscroll.js"></script>
 </head>
 
 
@@ -15,32 +18,29 @@
 
 
   <div class="navbar-fixed-top">
-	<span style="line-height: 50px; float: center; letter-spacing: 1.4px; font-size: 20px; text-align: center" >KELLIE CARLSON</span>
-    <span style="float: right">
-    <div class="dropdown">
-  		<img src="menu_btn.jpg" alt="D" onclick="myFunction()" class="dropbtn" >
-  		<div id="myDropdown" class="dropdown-content">
-    		<a href="#about">about</a>
-    		<a href="#resume">resume</a>
-    		<a href="#projects">projects</a>
-  		</div>
-	</div> </span>
-
-    <p> </p>
-
-    
+  	<div id="wrapper">
+  		<h1 style="line-height: 75px; text-align: center; letter-spacing: 1.4px; font-size: 20px; float: center"> KELLIE CARLSON 
+  		<span class="dropdown"> 
+  			<img src="images/menu_btn.png" alt="menu" onclick="myFunction()" class="dropbtn" >
+  			<div id="myDropdown" class="dropdown-content">
+    			<a href="#about" style="line-height: 50px" class="smoothScroll">about</a>
+    			<a href="#resume" style="line-height: 50px" class="smoothScroll">resume</a>
+    			<a href="#projects" style="line-height: 50px" class="smoothScroll">projects</a>
+  			</div>
+  		</span></h1>
+  	</div>
   </div>
 
-  <div class="studentDescription">
+ 
+
+  <div class="aboutMe">
+  <section class="about" id="about"></section>
     <h3>Hello World!</h3>
   </div>
   
-  <div class="aboutMe">
-  <a name="about"></a>
-  </div>
 
   <div class="resume">
-  <a name="resume"></a>
+  <section class="anchor" id="resume"></section>
     <h2 style="font-size: 15px; letter-spacing: 2px;">RESUME</h2>
     <div class="education" align="left">
       <h2 style="font-size: 14px; letter-spacing: 1.3px">EDUCATION</h2>
@@ -48,22 +48,39 @@
      
       <p style="text-align:left; font-size:18px; font-weight: 200"> <b> University of Pennsylvania</b> </p>
       
-      <p>
+      <p style="padding-bottom: 15px;">
       	<span style="text-align:left; font-size:16px">School of Engineering and Applied Science</span>
         <span style="float:right; font-size:16px"><i>2015 - 2019</i></span> <br>
         <span style="font-size:16px">B.S.E. Candidate in Computer Science and Mathematical Economics</span>
-        <span style="float:right; font-size:16px"><i>Philadelphia, PA</i></span> <br> <br>
+        <span style="float:right; font-size:16px"><i>Philadelphia, PA</i></span> <br>
       </p>
-      <p>
-        <span style="padding-bottom: 0; margin-bottom: 0"> Relevant Coursework</span>
-        <ul style="padding-top:0; margin-top: 0; ">
-        	<li> Computer Organization and Design</li>
-        	<li> Operating Systems</li>
-        </ul>
-        <br>
-      <p>
 
-      <p style="text-align:left; font-size:18px"> <b> The Charter School of Wilmington</b> 
+      <span style="padding-bottom: 40px">
+      <p>
+        <span style="padding-bottom: 0; margin-bottom: 0; font-size:15px"> <b>Specialized Coursework: </b></span>
+        <div style="float: left; width: 50%;">
+        <span>Computer Science</span>
+        <ul style="padding-top:0; margin-top: 0; padding-bottom: 15px;">
+        	<li> Automata, Computation, and Complexity</li>
+        	<li> Computer Organization and Design</li>
+        	<li> Programming Languages and Techniques I & II </li>
+        	<li> Discrete Probability and Statistical Inference </li>
+        </ul>
+        </div>
+        <div style="float: right; width: 50%;">
+        <span>Mathematical Economics</span>
+        <ul style="padding-top:0; margin-top: 0; padding-bottom: 15px; ">
+        	<li> Game Theory</li>
+        	<li> Linear Algebra</li>
+        	<li> Intermediate Microeconomics </li>
+        	<li style="visibility: hidden"> </li>
+        </ul>
+        </div>
+        <br> <br> <br> <br>
+      </p>
+      </span>
+
+      <p style="text-align:left; font-size:18px"> <br><b> The Charter School of Wilmington</b> 
       	<span style="float:right; font-size:16px"><i>2011 - 2015</i></span> </p>
       	<p> <span style="text-align:left; font-size:16px">College Prepatory STEM School</text>
         
@@ -123,7 +140,7 @@
     
     
     <div class="projects">
-    <a name="projects"></a>
+    <section class="anchor" id="projects"></section>
     <h2 style="font-size: 15px; letter-spacing: 2px;">PROJECTS</h2>
     	<hr>
 
