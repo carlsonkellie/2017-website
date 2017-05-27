@@ -16,6 +16,7 @@ body {
 	position: fixed;
 	right: 0;
 	left: 0;
+	text-align: center;
 	z-index: 999; 
 	top: 0;
 	background-color: #f4e3e9;
@@ -120,12 +121,14 @@ h2 {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+	background-image: menu_btn.jpg;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    width: 14px;
+    height: 14px;
 }
 
 /* Dropdown button on hover & focus */
