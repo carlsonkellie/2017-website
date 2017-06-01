@@ -114,25 +114,70 @@ h2 {
 }
 
 .school-description {
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
 }
 
 .school-description-left {
-	text-align:left; 
+	float:left;
+	text-align: left;
 	font-size:16px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+
 }
 
 .school-description-right {
 	float:right; 
+	text-align: right;
 	font-size:16px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	font-style: italic;
+	position: relative;
+}
+
+.double-break {
+	display: none;
+}
+
+@media (max-width: 828px) {   
+
+	.school-description-left {
+		position: relative;
+		text-align: left;
+		clear: both;
+		font-size:16px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+}
+
+
+   .school-description-right {
+   		text-align: left;
+   		float:left;
+   		font-size:16px;
+		clear:both;		
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		font-style: italic;
+		display: block;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.school-description {
+	padding-bottom: 30px;
+	overflow: hidden;
+	width: 100%;
+	display: block;
+}
 }
 
 .specialized-coursework {
 	margin-left: 100px;
+	margin-top: 0px;
 }
 
 ul, li{
@@ -149,7 +194,7 @@ padding-bottom: 0px;
     margin: 0 20px 0 15px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .double-col-list {
@@ -172,20 +217,17 @@ padding-bottom: 0px;
 
 .work {
 	margin-bottom: 0px;
+	padding-bottom: 0px;
 	font-family: "Open Sans";
-	font-size: 16px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	line-height: 20px;
-	padding-top: 20px;
-}
-
-.job-line1 {
-
-}
-
-.job-line2 {
-	padding-bottom: 20px;
+	padding-top: 15px;
+	display: block;
+	line-height: 20px;
+	margin-bottom: 0px;
+	display: block;
 }
 
 .publications {
