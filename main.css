@@ -205,6 +205,14 @@ padding-bottom: 0px;
 	font-size: 12px;
 }
 
+.sixth-sense-img {
+  width: auto ;
+  max-width: 60% ;
+  height: auto ;
+  display: block;
+  margin:auto;
+}
+
 .projects {
 	padding-left:10%;
 	padding-right:10%;
