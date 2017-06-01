@@ -233,6 +233,11 @@ padding-bottom: 0px;
 	padding-right: 5%;
 }
 
+.footer {
+	text-align:left; 
+	font-size:14px
+}
+
 
 /* Dropdown Button */
 .dropbtn {
