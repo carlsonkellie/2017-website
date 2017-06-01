@@ -203,14 +203,15 @@ padding-bottom: 0px;
 
 .publication-link {
 	font-size: 12px;
+	text-align: left;
 }
 
 .sixth-sense-img {
-  width: auto ;
-  max-width: 60% ;
+  width: 60% ;
   height: auto ;
   display: block;
   margin: auto;
+  overflow: hidden;
 }
 
 .projects {
