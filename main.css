@@ -26,6 +26,14 @@ body {
 	letter-spacing: 1.3px;
 }
 
+.myName {
+	line-height: 75px; 
+	text-align: center; 
+	letter-spacing: 1.4px; 
+	font-size: 20px; 
+	float: center
+}
+
 
 h1 {
 	font-size: 22px;
@@ -42,6 +50,8 @@ p {
 h2 {
 	font-family: 'Josefin Sans';
 }
+
+
 
 .aboutMe {
 	margin-top: 90px;
@@ -62,14 +72,102 @@ h2 {
 	margin-top: 0px;
 }
 
+.resume-title {
+	font-size: 15px; 
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans';
+}
+
+.resume-heading {
+	font-size: 14px; 
+	letter-spacing: 1.3px;
+	font-family: 'Josefin Sans';
+	text-align: left;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
 .education {
 	margin-bottom: 0px;
+	padding-bottom: 0px;
 	font-family: "Open Sans";
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 200;
 	line-height: 20px;
+	display: block;
+	padding-top: 0px;
+}
+
+.school-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.major-title {
+	font-size: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.school-description {
+	padding-bottom: 15px;
+}
+
+.school-description-left {
+	text-align:left; 
+	font-size:16px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.school-description-right {
+	float:right; 
+	font-size:16px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.specialized-coursework {
+	margin-left: 100px;
+}
+
+ul, li{
+margin-left:10px;
+padding:0 0 0 15px; 
+margin-top: 0px;  
+margin-bottom: 0px;
+padding-bottom: 0px; 
+}
+
+
+.list-col{
+    float: left;
+    margin: 0 20px 0 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.double-col-list {
+	display: inline-block; 
+	zoom:1; 
+	*display: inline;
+}
+
+.CSW {
+	display: block;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	clear: both;
+	text-align:left; 
+	font-size:18px
+	padding-bottom:0px;
+	margin-bottom: 0px;
 }
 
 .work {
@@ -79,6 +177,15 @@ h2 {
 	font-style: normal;
 	font-variant: normal;
 	line-height: 20px;
+	padding-top: 20px;
+}
+
+.job-line1 {
+
+}
+
+.job-line2 {
+	padding-bottom: 20px;
 }
 
 .publications {
@@ -89,6 +196,13 @@ h2 {
 	font-variant: normal;
 	font-weight: 200;
 	line-height: 20px;
+	align-content: left;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.publication-link {
+	font-size: 12px;
 }
 
 .projects {
