@@ -19,30 +19,124 @@
 <body>
 
 
-  <div class="navbar-fixed-top">
+  <nav class="navbar-fixed-top">
   	<div id="wrapper">
   		<h1 class="myName"> KELLIE CARLSON 
   		<span class="dropdown"> 
   			<img src="images/menu_btn.png" alt="menu" onclick="myFunction()" class="dropbtn" >
   			<div id="myDropdown" class="dropdown-content">
     			<a href="#about" style="line-height: 50px" class="smoothScroll">about</a>
-    			<a href="#resume" style="line-height: 50px" class="smoothScroll">resume</a>
+    			<a href="#education" style="line-height: 50px" class="smoothScroll">education</a>
+    			<a href="#experience" style="line-height: 50px" class="smoothScroll">experience</a>
     			<a href="#projects" style="line-height: 50px" class="smoothScroll">projects</a>
+          		<a href="#publications" style="line-height: 50px" class="smoothScroll">publications</a>
   			</div>
   		</span></h1>
   	</div>
-  </div>
+  </nav>
 
  
 
-  <div class="aboutMe">
+  <div id="aboutMe">
   <section class="about" id="about"></section>
-    <h3>Hello World!</h3>
-  </div>
-  
+    <div id="aboutMeTextWrapper">
+	    <h2 style="font-size: 15px; letter-spacing: 2px; text-align: center">ABOUT</h2>
+	    <hr>
+	    <div id="aboutMeFlexWrapper">
+		    <div id="aboutMeText">
+		      <p class="aboutLong"> Hello! I'm a junior at the University of Pennsylvania, pursuing a Bachelor of Science in Engineering in Computer Science and Mathematical Economics. I love to explore the collision of the technology and finance industries, particularly on the user experience side. With experience in full stack development, I have a strong passion for front end development, intertwining beautiful code with beautiful design. </p>
+		      <p> When I'm not in front of a computer screen or working on a project, I love to spend my time on the tennis court or trying a new recipe in the kitchen. </p>
+		      <!-- I am  a design-minded, detail oriented software engineer, passionate about intertwining beautiful code with beautiful design. I have experience building full-stack applications, utilizing a wide array of languages and tools. I strive to harmonize pixel-perfect user experiences with efficient code under the hood. 
 
-  <div class="resume">
-  <section class="anchor" id="resume"></section>
+Hi! I'm a bioengineer/computer scientist at the University of Pennsylvania. I have a strong passion for robotics and medical devices, and I love to see the areas where software, hardware, and biology collide. I have experience in software engineering, robotics research, acting as a teaching assistant -- and above all, debugging! Although engineering fuels my (long) waking hours, I also love reading literature and playing quizbowl in my free time. Come say hello if you'd like to talk about any of these things!
+		      -->
+		    </div>
+		    <div id="aboutMePhotoWrapper">
+		      <img src="images/LinkedIn_Photo.JPG"> </img>
+		    </div>
+		</div>
+    </div>
+  </div>
+
+
+
+  <div class="education">
+  <section class="anchor" id="education"></section>
+  	<h2 class="resume-title" style="font-size: 15px; letter-spacing: 2px; text-align: center">EDUCATION</h2>
+	<hr>
+  	<p class="school-title"> University of Pennsylvania </p>
+      
+      <p class="school-description">
+      	<span class="school-description-left">School of Engineering and Applied Science <br> B.S.E. Candidate in Computer Science and Mathematical Economics </span>
+        <span class="school-description-right">2015 - 2019<br> Philadelphia, PA</span> <br>
+      </p>
+
+      <p class="specialized-coursework">
+      <h4 class="major-title">Specialized Coursework</h4>
+        <div class="list-col">
+          <h4 class="major-title">Computer Science:</h4>
+          <ul class="double-col-list">
+            <li>Automata, Computation, and Complexity</li>
+            <li> Computer Organization and Design</li>
+            <li> Programming Languages and Techniques I & II </li>
+            <li> Discrete Probability and Statistical Inference </li>
+          </ul>
+        </div>
+
+        <div class="list-col">
+          <h4 class="major-title">Mathematical Economics:</h4>
+          <ul class="double-col-list">
+            <li> Game Theory</li>
+            <li> Linear Algebra</li>
+            <li> Intermediate Microeconomics </li>
+          </ul>
+        </div>
+      </p>
+
+      <p class="school-description-2">
+        <span class="school-description-left"> 
+          <span class="school-title"> The Charter School of Wilmington </span>
+             <br> College Preparatory STEM School </span>
+        <span class="school-description-right">2011 - 2015 <br> Wilmington, DE</span> <br>
+      </p>
+  </div>
+
+  <div class="experience">
+  <section class="anchor" id="experience"></section>
+  	<h2 class="resume-title" style="font-size: 15px; letter-spacing: 2px; text-align: center">EXPERIENCE</h2>
+  	<hr>
+
+  	<p class="school-description">
+        <span class="school-description-left"> 
+          <span class="school-title">JPMorgan Chase</span>
+             <br> Software Engineering Intern </span>
+        <span class="school-description-right">Summer 2017<br>Newark, DE</span>
+        <br>
+        
+      </p>
+      <ul>
+        	<li>Technology Analyst Program</li>
+        	<li>Worked as a full-stack developer on an Agile scrum team to develop an internal web application in Emerging Payments</li>
+        </ul>
+
+      <p class="school-description-2">
+        <span class="school-description-left"> 
+          <span class="school-title">College House Computing at the University of Pennsylvania</span>
+             <br> Information Technology Advisor</span>
+        <span class="school-description-right">August 2016 - Present<br>Philadelphia, PA</span>
+      </p>
+      Senior Information Technology Advisor (August 2017 - Present)
+      <ul>
+        	<li>Technology Analyst Program</li>
+        	<li>Worked as a full-stack developer on an Agile scrum team to develop an internal web application in Emerging Payments</li>
+      </ul>
+      Information Technology Advisor (August 2016 - May 2017)
+      <ul>
+        	<li>Provided computing support to college house residents for network connectivity issues, software installation errors, and initial computer set-up, among other cases</li>
+        	<li>Ran computer lab help desk</li>
+      </ul>
+
+  	<!--
     <h2 class="resume-title">RESUME</h2>
     <div class="education" align="left">
       <h2 class="resume-heading">EDUCATION</h2>
@@ -107,51 +201,57 @@
       </p>
 
     </div>
+    -->
      
-    <div class="publications">
-    	<h2 class="resume-heading"> PUBLICATIONS</h2>
-    	<hr>
-    	<h1>2014</h1>
-  		<h3 class="school-title">A Review of the Practical Capabilities and Perception of the SixthSense Device</h3>
-  		
-  		<p>Carlson, Jaimie M., Carlson, Kellie L., & Kuykendall, Benjamin R. (2014). A Review of the Practical Capabilities and Perception of the SixthSense Device. In Proceedings of the International Conferences on Interfaces and Human Computer Interaction 2014, Game and Entertainment Technologies 2014, and Computer Graphics, Visualization, Computer Vision and Image Processing 2014 (pp. 61-68). IADIS.  <br> <br></p>
-
-  		<p><b>Abstract: </b>With advances in sensing and processing input, more natural interfaces have been developed; gesture based input is now within the capacities of current technology. Despite prototype devices developed in the past five years, consumer electronics have not adapted gesture-based input systems. This study replicates the SixthSense technology, a wearable gesture- based interface, as developed by Pranav Mistry at the MIT Media Lab (Mistry et al.). We determined how high school students, a group accustomed to modern hand-held technology, perceive this device. Subjects (n=19) assessed the practicality of the device after hearing a general description, after operating a prototype device, and after watching a video featuring possible future uses of the device. Numerical trends and individual reactions were evaluated. Significant differences were observed in reactions after the three stages of the experiment (p<0.05). These differences highlighted the flaws in the execution and design of current gesture-based device prototypes. <br><br></p>
-
-  		<p class="publication-link">
-
-      <a href="http://www.iadisportal.org/ihci-2014-proceedings">http://www.iadisportal.org/ihci-2014-proceedings</a> <br> <br>
-
-      <img class="sixth-sense-img" src="images/20141027_134034.jpg" alt="SixthSense_FrontView">
-      </p>
-  		
-  
-
-		<h1>2012</h1>
-  		<h3 class="school-title">Changing Speed and Pitch of Synthesized Voices: Perceived Effects on Attributes and Retention</h3>
-
-  		<p>Carlson, J., Carlson, K., Kurian, M., Agrawal, N., Xiang, A. & Brown, D. (2012). Changing Speed and Pitch of Synthesized Voices: Perceived Effects on Attributes and Retention. In Proceedings of Global Learn 2012 (pp. 239-244). AACE.  <br> <br> </p>
-
-  		<p><b>Abstract: </b>Computer-synthesized voices can help students learn information via recorded lectures or study aids. This experiment seeks to determine how differences in speed and pitch among synthesized voices affect students’ opinions about the voices and how well they remembered informative passages read by the voices. In the experiment, participants listened to five versions of a computerized voice, modified in speed and pitch, reading randomized passages. Subjects were asked to fill out questionnaires regarding characteristics and information from the passages. The data suggests that affective considerations are more prevalent than retention concerns when accumulating information from computerized voices.<br><br></p>
-
-  		<p class="publication-link"><a href="https://www.learntechlib.org/p/42077">https://www.learntechlib.org/p/42077</a></p>
-    </div>
+    
   </div>
 
     <div class="projects">
     <section class="anchor" id="projects"></section>
-    <h2 style="font-size: 15px; letter-spacing: 2px;">PROJECTS</h2>
+    <h2 style="font-size: 15px; letter-spacing: 2px; text-align: center">PROJECTS</h2>
     	<hr>
+    	<p><svg fill="#000000" height="48" viewBox="0 -9 24 24" overflow="visible" width="48" xmlns="http://www.w3.org/2000/svg">
+		    <path d="M0 0h24v24H0z" fill="none"/>
+		    <path d="M23 12l-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68L23 12zm-10 5h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+		</svg>
+		Under construction. Will be updated soon!
+		</p>
+		<br>
+    </div>
 
-    	<p>I have projects. I need to work on my projects.</p>
+    <div class="publications">
+    <section class="anchor" id="publications"></section>
+    <h2 style="font-size: 15px; letter-spacing: 2px; text-align: center">PUBLICATIONS</h2>
+      <hr>
+
+      <h1>2014</h1>
+      <h3 class="school-title"> <a href="http://www.iadisportal.org/ihci-2014-proceedings">A Review of the Practical Capabilities and Perception of the SixthSense Device</a></h3>
+      
+      <p>Carlson, Jaimie M., Carlson, Kellie L., & Kuykendall, Benjamin R. (2014). A Review of the Practical Capabilities and Perception of the SixthSense Device. In Proceedings of the International Conferences on Interfaces and Human Computer Interaction 2014, Game and Entertainment Technologies 2014, and Computer Graphics, Visualization, Computer Vision and Image Processing 2014 (pp. 61-68). IADIS.  <br> <br></p>
+
+      <p><b>Abstract: </b>With advances in sensing and processing input, more natural interfaces have been developed; gesture based input is now within the capacities of current technology. Despite prototype devices developed in the past five years, consumer electronics have not adapted gesture-based input systems. This study replicates the SixthSense technology, a wearable gesture- based interface, as developed by Pranav Mistry at the MIT Media Lab (Mistry et al.). We determined how high school students, a group accustomed to modern hand-held technology, perceive this device. Subjects (n=19) assessed the practicality of the device after hearing a general description, after operating a prototype device, and after watching a video featuring possible future uses of the device. Numerical trends and individual reactions were evaluated. Significant differences were observed in reactions after the three stages of the experiment (p<0.05). These differences highlighted the flaws in the execution and design of current gesture-based device prototypes. <br><br></p>
+
+      <p class="publication-link">
+
+      <img class="sixth-sense-img" src="images/20141027_134034.jpg" alt="SixthSense_FrontView">
+      </p>
+      
+  
+
+    <h1>2012</h1>
+      <h3 class="school-title"> <a href="https://www.learntechlib.org/p/42077">Changing Speed and Pitch of Synthesized Voices: Perceived Effects on Attributes and Retention</a></h3>
+
+      <p>Carlson, J., Carlson, K., Kurian, M., Agrawal, N., Xiang, A. & Brown, D. (2012). Changing Speed and Pitch of Synthesized Voices: Perceived Effects on Attributes and Retention. In Proceedings of Global Learn 2012 (pp. 239-244). AACE.  <br> <br> </p>
+
+      <p><b>Abstract: </b>Computer-synthesized voices can help students learn information via recorded lectures or study aids. This experiment seeks to determine how differences in speed and pitch among synthesized voices affect students’ opinions about the voices and how well they remembered informative passages read by the voices. In the experiment, participants listened to five versions of a computerized voice, modified in speed and pitch, reading randomized passages. Subjects were asked to fill out questionnaires regarding characteristics and information from the passages. The data suggests that affective considerations are more prevalent than retention concerns when accumulating information from computerized voices.</p>
+    </div>
     </div>
   
   
   <div class="contact">
-	<p class="footer"> © 2017 Kellie Carlson
-	<span style="float:right;"> <a href="mailto:carlsonk@seas.upenn.edu" style ="color: #666666; text-decoration: none">Email</a> // <a href="https://www.linkedin.com/in/kellie-carlson-b08298127/" style ="color: #666666; text-decoration: none">LinkedIn</a></span>
-</p>
-
+	  <p class="footer"> © 2017 Kellie Carlson
+	    <span style="float:right;"> <a href="mailto:carlsonk@seas.upenn.edu" style ="color: #666666; text-decoration: none">Email</a> // <a href="https://www.linkedin.com/in/kellie-carlson-b08298127/" style ="color: #666666; text-decoration: none">LinkedIn</a></span>
+    </p>
   </div>
 
 
